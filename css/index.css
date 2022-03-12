@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/*header*/
+/*menu*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 70px 0 70px;
+}
+
+.menu img {
+    height: 60px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 0 0 50px ;
+}
+
+ mark {
+    color: #0065FC;
+    background-color: white;
+    border-top: 2px #0065FC solid;
+    padding: 40px 10px 0 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
