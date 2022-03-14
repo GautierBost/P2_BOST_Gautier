@@ -1,9 +1,13 @@
+/*police raleway*/
 
 body {
     font-family: 'Raleway', sans-serif;
 }
+
 /*header*/
+
 /*menu*/
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -14,7 +18,7 @@ body {
     height: 60px;
 }
 
-.menu ul {
+ul {
     display: flex;
     list-style: none;
 }
@@ -33,4 +37,104 @@ body {
 a {
     color: black;
     text-decoration: none;
+}
+
+/*filtre*/
+
+.filtre {
+    margin: 50px 0 0 50px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+/*recherche*/
+
+.recherche {
+    display: flex;
+}
+
+.recherche i {
+    padding: 17px 17px 9px 17px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+input {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#search {
+    padding: 13px 17px 14px 17px;
+    border-color: #F2F2F2;
+    border-style: solid;
+    font-family: "Raleway", sans-serif;
+    appearance: none;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#button {
+    padding: 13px 17px 13px 17px;
+    background-color: #0065FC;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-color: #0065FC;
+    border-style: solid;
+    color: white;
+}
+
+/*catégories*/
+
+.catégories {
+    margin: 30px 0 20px 0;
+    padding: 0 0 0 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.filtre span {
+    display: flex;
+}
+
+#filtres {
+    margin: 12px 10px 0 0;
+}
+
+.catégories span {
+    margin: 0 0 0 30px;
+    padding: 0 20px 0 0;
+    border-top: solid #F2F2F2;
+    border-right: solid #F2F2F2;
+    border-bottom: solid #F2F2F2;
+    border-radius: 50px;
+}
+
+.catégories i {
+    padding: 10px 10px 10px 10px;
+    margin: 0 20px 0 0;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 50px;
+}
+
+.catégories li p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*info*/
+
+#info i {
+    margin: 12px 10px 13px 0;
+    padding: 2px 8px 2px 8px;
+    color: #0065FC;
+    border: solid #F2F2F2;
+    border-radius: 50px;
 }

@@ -5,8 +5,9 @@
         <title>Booki</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
+        <script src="https://kit.fontawesome.com/e5c44848d0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--header-->
@@ -18,6 +19,52 @@
                     <li><a href="Hébergements"><mark>Hébergements</mark></a></li>
                     <li><a href="Activités">Activités</a></li>
                 </ul>
+            </nav>
+            <!--filtre-->
+            <nav class="filtre">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                <!--recherche-->
+                <div class="recherche">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <form method="post" action="traitement.php">
+                        <input type="search" id="search" placeholder="Marseille, France" />
+                        <input type="button" value="Rechercher" id="button" />
+                    </form>
+                </div>
+                <!--catégories-->
+                <ul class="catégories">
+                    <p id="filtres">Filtres</p>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <p>Économique</p>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-child" style="padding: 10px 12px 10px 12px;"></i>
+                            <p>Familial</p>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-heart" style="padding: 10px 11px 10px 11px;"></i>
+                            <p>Romantique</p>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <i class="fa-solid fa-dog"></i>
+                            <p>Annimaux autorisés</p>
+                        </span>
+                    </li>
+                </ul>
+                <!--info-->
+                <span id="info">
+                    <i class="fa-solid fa-info"></i>
+                    <p>Plus de 500 logements sont disponnibles dans cet ville</p>
+                </span>
             </nav>
         </header>
     </body>
