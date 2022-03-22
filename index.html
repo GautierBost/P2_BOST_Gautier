@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Booki</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +14,10 @@
         <!--header-->
         <header>
             <!--menu-->
-            <nav id="menu">
+            <nav class="menu">
                 <img src="./images/logo/Booki.png" alt="logo"/>
                 <ul>
-                    <li><a href="#Hébergements"><mark>Hébergements</mark></a></li>
+                    <li id="bleu"><a href="#Hébergements"><mark>Hébergements</mark></a></li>
                     <li><a href="#Activités">Activités</a></li>
                 </ul>
             </nav>
@@ -117,9 +118,7 @@
                                     <span class="gris"><i class="fa-solid fa-star"></i></span>
                                 </div>
                             </div>    
-                        </a>
-                    </div>
-                    <div class="Bloc_1">
+                        </a>     
                         <a href="#">
                             <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                             <div class="texte">
@@ -266,28 +265,32 @@
             </section>
         </main>
         <footer>
-            <section>
-                <h4>A propos</h4>
-                <ul>
-                    <li>Fontionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidancialité</li>
-                </ul>
-            </section>
-            <section>
-                <h4>Nos Hébergements</h4>
-                <ul>
-                    <li>Charte qualité</li>
-                    <li>soumettre votre hôtel</li>
-                </ul>
-            </section>
-            <section>
-                <h4>Assistance</h4>
-                <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
-            </section>
+            <div>
+                <div class="footer">
+                    <section>
+                        <h4>A propos</h4>
+                        <ul>
+                            <li>Fontionnement du site</li>
+                            <li>Conditions générales de vente</li>
+                            <li>Données et confidancialité</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>Nos Hébergements</h4>
+                        <ul>
+                            <li>Charte qualité</li>
+                            <li>soumettre votre hôtel</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h4>Assistance</h4>
+                        <ul>
+                            <li>Centre d'aide</li>
+                            <li>Nous contacter</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>        
         </footer>
     </body>
 </html>
