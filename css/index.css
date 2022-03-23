@@ -66,11 +66,11 @@ h1 {
 
 /*recherche*/
 
-#recherche {
+.recherche {
     display: flex;
 }
 
-#recherche i {
+#pointeur {
     font-size: 18px;
     padding: 17px 17px 9px 17px;
     background-color: #F2F2F2;
@@ -78,11 +78,11 @@ h1 {
     border-bottom-left-radius: 14px;
 }
 
-#recherche form {
+.recherche form {
     display: flex;
 }
 
-input {
+input, button {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -99,13 +99,17 @@ input {
     outline: none;
 }
 
-#button {
+button {
     padding: 13px 17px;
     background-color: #0065FC;
     border-top-right-radius: 14px;
     border-bottom-right-radius: 14px;
     border: solid #0065FC;
     color: white;
+}
+
+button i {
+    font-size: 0;
 }
 
 /*catégories*/
@@ -533,6 +537,10 @@ footer div{
 
 @media screen and (max-width: 768px) {
 
+    body {
+        min-width: 375px;
+    }
+
     header {
         margin: 0;
         padding: 0;
@@ -580,6 +588,21 @@ footer div{
         margin-right: 20px;
     }
 
+    #search {
+        padding-right: 10px;
+    }
+
+    button {
+        border-top-left-radius: 14px;
+        border-bottom-left-radius: 14px;
+        font-size: 0;
+        padding: 12px 12px;
+    }
+
+    #loupe {
+        font-size: 18px;
+    }
+
     #catégories {
         flex-direction: column;
     }
@@ -613,7 +636,7 @@ footer div{
     }
 
     .Bloc_2 img {
-        max-width: 170px;
+        width: 150px;
         height: 150px;
         border-top-right-radius: 0;
         border-bottom-left-radius: 14px;
