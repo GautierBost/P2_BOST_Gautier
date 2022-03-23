@@ -325,6 +325,7 @@ h4 {
     object-fit: cover;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
+    display: block;
 }
 
 /*activités*/
@@ -597,6 +598,8 @@ footer div{
         border-bottom-left-radius: 14px;
         font-size: 0;
         padding: 12px 12px;
+        position: relative;
+        left: -14px;
     }
 
     #loupe {
@@ -609,7 +612,7 @@ footer div{
 
     #catégories li {
         margin-left: 0;
-        margin-right: px;
+        margin-right: 10px;
     }
 
     main {
